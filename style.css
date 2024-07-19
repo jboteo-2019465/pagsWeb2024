@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: whitesmoke;
+    background-color: #020202;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-inicial {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+#icono {
+    width: 50px;
+}
+
+.nav-inicial ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.nav-inicial ul {
+    display: flex;
+}
+
+.nav-inicial ul li {
+    padding: 10px;
+}
+
+.nav-inicial ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.showcase {
+    width: 100%;
+    height: 600px;
+    background: #333;
+    background: linear-gradient(#333333fb, hsla(181, 60%, 65%, 0.263)), url(./imagenes/artistaDibujando.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.showcase2 {
+    width: 100%;
+    height: 600px;
+    background: #333;
+    background: linear-gradient(#333333fb, hsla(181, 60%, 65%, 0.263)), url(./imagenes/Biografía.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.headerTexto {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.headerTexto h1 {
+    font-size: 50px;
+    margin-top: 10%;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.headerTexto h2 {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#tipos {
+    list-style-type: disc;
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    margin-left: 250px;
+}
+
+li::marker {
+    color: red;
+}
+
+
+/* Que es Dibujo */
+.titulo {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subTitulo {
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 250px;
+
+}
+
+.SobreElDibujo {
+    padding: 60px 0;
+    width: 100%;
+
+}
+
+span {
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#geroglifico {
+    width: 18%;
+    height: 10%;
+    margin-left: 70px;
+
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenido p {
+    margin-left: 50px;
+
+}
+
+.dibujoGif img {
+    height: 60%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/* Tipos de Dibujo*/
+.cuales {
+    padding-bottom: 30px;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 1000%;
+    background: linear-gradient(#000000fb, hsla(180, 15%, 13%, 0.363)), url(./imagenes/personadibujando.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.cuales2 {
+    padding-bottom: 30px;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 1000%;
+    background: linear-gradient(#000000fb, hsla(180, 15%, 13%, 0.363)), url(./imagenes/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#contenedorTipos {
+    padding: 60px 0;
+    width: 100%;
+}
+
+.tiposDibujo {
+    margin-left: 480px;
+    width: 50%;
+    display: flex;
+}
+
+
+.tipo {
+    width: 70%;
+    text-align: center;
+}
+
+.tipo img {
+    width: 50%;
+}
+
+.tipo h3 {
+    margin: 10px 0;
+    font-size: 200%;
+}
+
+.tipo p {
+    font-weight: 600;
+}
+
+/* footer*/
+footer {
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+/* Porque me Gusta*/
+.porqueMeGusta {
+    text-align: left;
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1400px;
+    border-radius: 10px;
+    border-top-style: groove;
+    margin-left: 3%;
+
+}
+
+#titulo2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 180px;
+
+}
+
+#dibEfecto {
+    margin-left: 10%;
+    width: 30%;
+}
+
+/*Carrusel*/
+.carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+
+
+}
+
+.carruselMenu {
+    display: none;
+}
+
+.carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+}
+
+.carruselDibujos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+
+.carruselDibujos img {
+    border: 3px solid white;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 550px) {
+    .carruselDibujos {
+        overflow: hidden;
+    }
+
+    .carruselMenu {
+        display: block;
+    }
+
+    .carruselMenu img {
+        box-sizing: border-box;
+        width: 50px;
+        height: 40px;
+        border: 5px solid hsla(180, 32%, 20%, 0.263);
+        object-fit: contain;
+    }
+
+    .carruselMenu img:hover {
+        border: none;
+
+    }
+
+    .carruselDibujos img {
+        width: 500px;
+        height: 400px;
+
+    }
+}
+
+#biografia {
+    margin-right: 15%;
+}
+
+.mascotas {
+    display: flex;
+    gap: 10px;
+}
+
+#perro {
+    width: 52%;
+}
+
+#gato {
+    width: 52%;
+}
+
+#fotoChiquito {
+    margin-left: 10%;
+    width: 30%;
+    height: 550px;
+}

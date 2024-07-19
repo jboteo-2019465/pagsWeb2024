@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-inicial {
+    background-color: #020202;
+    font-size: 17px;
+    display: flex;
+    justify-content:;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+#icono {
+    width: 50px;
+}
+
+.nav-inicial ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.nav-inicial ul {
+    display: flex;
+}
+
+.nav-inicial ul li {
+    padding: 10px;
+}
+
+.nav-inicial ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Nav Kinal*/
+.navKinal {
+    background-color: #152268;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+
+#logoKinal {
+    width: 4%;
+    margin-top: 0.3%;
+}
+
+.navKinal ul {
+    display: flex;
+    margin-left: 53%;
+}
+
+.navKinal li {
+    padding: 5px;
+
+}
+
+#borde1 {
+    padding: 5px;
+    border: #020202;
+    border-left-style: groove;
+    border-right-style: groove;
+}
+
+#borde2 {
+    padding: 5px;
+    border: #020202;
+    border-right-style: groove;
+}
+
+#borde3 {
+    padding: 5px;
+    border: #020202;
+    border-left-style: groove;
+
+}
+
+.navTexto {
+    font-family: 'Dancing Script', 'cursive';
+    margin-left: 10px;
+}
+
+/* showcase */
+.showcase {
+    width: 100%;
+    height: 550px;
+    background: #333;
+    background: linear-gradient(#333333fb, hsla(181, 60%, 65%, 0.263)), url(./imagenes/kinalEnfrente.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.showcaseTexto {
+    display: flex;
+    height: 430px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.showcaseTexto img {
+    box-shadow: 3px 3px 3px 1px rgba(32, 32, 32, 0.497);
+}
+
+/* Informacion*/
+.Informacion {
+    color: #152268;
+    max-width: 1000px;
+    margin-top: 2%;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 15px 15px 15px 0px rgba(32, 32, 32, 0.256);
+    margin-left: 16%;
+    border-radius: 0% 10% 15px 0%;
+    font-size: 20px;
+}
+
+
+/*tipos*/
+.tipos{
+    margin-top: 5%;
+    width: 100%;
+    height: 550px;
+    background: #333;
+    background: linear-gradient(#333333fb, hsla(251, 48%, 5%, 0.714)), url(./imagenes/graduandos.png);
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tipos h2{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Dancing Script';
+}
+
+.card {
+    width: 250px;
+    height: 54px;
+    background: rgba(71, 1, 1, 0.519);
+    border-bottom: 1px solid rgb(241, 205, 0);
+    border-radius: 10px 10px 2px 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-left: 85px;
+  }
+
+  .contenedorGrados {
+    flex: 1; 
+    margin-left: 8%;
+    margin-bottom: 0.1%;
+}
+
+.contenedorGrados img{
+    width: 280px;
+    margin-left: 7.5%;
+}
+
+#basico{
+    margin-left: 12.5%;
+}
+#diver{
+    margin-left: 12%;
+}
+
+
+.tercerDiv{
+    margin-left: 36%;
+    margin-bottom: 12%;
+}
+
+
+.slider {
+	width: 40%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* patrocinadores */
+
+.patrocinadores{
+    max-width: 2000px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.patrocinadores h1{
+    color: #152268;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'DM Serif Display', serif;
+}
+
+.slider{
+    box-shadow: 0px 10px 10px 0px rgba(32, 32, 32, 0.405);
+    border-radius: 10px 0% 0px 15px;
+}
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 200%;
+	animation: cambio 10s infinite alternate ;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 90%;
+    object-fit: contain;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+}
+
+/* footer*/
+footer{
+    background: #152268;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+}
+
+.tituloFinal {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+.contenedorFooter {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(241, 205, 0);
+}
+
+.contenidoFoo {
+    text-align: center;
+}
+
+.contenidoFoo h4 {
+    color: #fff;
+    border-bottom: 4px solid rgb(241, 205, 0);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'DM Serif Display', serif;
+}
+
+/* Mapa */
+
+.mapa h1{
+    color: #152268;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.mapa{
+    background-color: whitesmoke;
+    margin-bottom: 0.5%;
+}
+
+.mapa img{
+    width: 20%;
+    margin-top: 10px;
+}
+
+#mapaKinal{
+    margin-left: 30%;
+}
+
+#persona2{
+    height: 10%;
+    margin-top: -700px;
+    margin-left: 250px;
+}
+
+.ultimoTexto{
+    color: black;
+}
+
+
+ 
